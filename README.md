@@ -127,7 +127,7 @@ namespace ManagementProject
         /// </summary>
         /// <param name="remoteFileName">远程文件名</param>
         /// <param name="localFileName">保存本地的文件名（包含路径）</param>
-        /// <param name="ifCredential">|59.24.52.182/ezon|是否启用身份验证（false：表示允许用户匿名下载）</param>
+        /// <param name="ifCredential">~59.24.52.182/ezon~是否启用身份验证（false：表示允许用户匿名下载）</param>
         /// <param name="size">已下载文件流大小</param>
         /// <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
         /// <returns>是否下载成功</returns>
