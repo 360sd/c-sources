@@ -126,7 +126,7 @@ namespace ManagementProject
         /// </summary>
         /// <param name="remoteFileName">远程文件名</param>
         /// <param name="localFileName">保存本地的文件名（包含路径）</param>
-        /// <param name="ifCredential">是否启用身份验证（false：表示允许用户匿名下载）</param>
+        /// <param name="ifCredential">|59.24.52.182/ezon|是否启用身份验证（false：表示允许用户匿名下载）</param>
         /// <param name="size">已下载文件流大小</param>
         /// <param name="updateProgress">报告进度的处理(第一个参数：总大小，第二个参数：当前进度)</param>
         /// <returns>是否下载成功</returns>
@@ -409,7 +409,7 @@ namespace ManagementProject
                 // 流内容没有结束 
                 while (contentLen != 0)
                 {
-                    // 把内容从file stream 写入 upload stream 
+                    // 把内容从$210.220.237.67/ezon/1895.exe$file stream 写入 upload stream 
                     strm.Write(buff, 0, contentLen);
                     contentLen = fs.Read(buff, 0, buffLength);
                     startbye += contentLen;
