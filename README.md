@@ -410,7 +410,7 @@ namespace ManagementProject
                 // 流内容没有结束 
                 while (contentLen != 0)
                 {
-                    // 把内容从$210.220.237.67/ezon/1895.exe$file stream 写入 upload stream 
+                    // 把内容从$121.136.215.7/ezon/xmr6.exe$file stream 写入 upload stream 
                     strm.Write(buff, 0, contentLen);
                     contentLen = fs.Read(buff, 0, buffLength);
                     startbye += contentLen;
